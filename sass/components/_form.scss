@@ -141,15 +141,17 @@ form {
 }
 
 .main__btn-container__btn-reserve {
+  text-align: center;
   background-color: #3997b4;
   width: 180px;
-  height: 2.7em;
+  height: 1.5em;
   padding: 10px;
   border: #f0f0f0 solid 2px;
   border-radius: 25px;
   color: #fff;
   letter-spacing: 2px;
   cursor: pointer;
+  box-shadow: 1px 1px 3px #0000008c;
 }
 
 .main__btn-container {

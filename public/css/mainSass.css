@@ -701,6 +701,8 @@ body {
   max-width: 500px;
   display: inline-block;
   margin: 0 auto;
+  border-radius: 6px;
+  box-shadow: 8px 8px 8px 1px rgba(0, 0, 0, 0.42);
 }
 
 .us__image-container {
@@ -806,19 +808,6 @@ ul li .form__input--error {
 .blog__card-text {
   font-size: 1.2em;
   margin-top: 1em;
-}
-
-/* Style for the buttons */
-.main-header__btn-container__btn-reserve {
-  background-color: #f23465;
-  width: 200px;
-  border: solid #fff 2px;
-  padding: 10px;
-  border-radius: 25px;
-  color: #fff;
-  letter-spacing: 2px;
-  display: none;
-  cursor: pointer;
 }
 
 /* Style for cards */
@@ -1180,15 +1169,17 @@ form {
 }
 
 .main__btn-container__btn-reserve {
+  text-align: center;
   background-color: #3997b4;
   width: 180px;
-  height: 2.7em;
+  height: 1.5em;
   padding: 10px;
   border: #f0f0f0 solid 2px;
   border-radius: 25px;
   color: #fff;
   letter-spacing: 2px;
   cursor: pointer;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5490196078);
 }
 
 .main__btn-container {
@@ -1361,19 +1352,26 @@ a {
 /* Styles for post */
 .post__cover-container {
   background-color: #1e2e3c;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 50vh;
-  width: auto;
-  margin: 0 auto;
-  padding: 2em;
+  width: 100%;
+  border-radius: 6px;
+  padding: 1em;
   min-width: 225px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .post__author,
 .post__date {
   margin: 2em 0;
   font-weight: 700;
+}
+
+.post__image {
+  margin-top: 0 auto;
+  max-width: 100%;
+  border-radius: 6px;
+  display: block;
 }
 
 /* Style for the testimonial slider */

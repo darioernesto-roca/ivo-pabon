@@ -1,17 +1,24 @@
 /* Styles for post */
 .post__cover-container {
     background-color: #1e2e3c;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 50vh;
-    width: auto;
-    margin: 0 auto;
-    padding: 2em;
+    width: 100%;
+    border-radius: 6px;
+    padding: 1em;
     min-width: 225px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .post__author,
   .post__date {
     margin: 2em 0;
     font-weight: 700;
+  }
+
+  .post__image {
+    margin-top: 0 auto;
+    max-width: 100%;
+    border-radius: 6px;
+    display: block;
   }

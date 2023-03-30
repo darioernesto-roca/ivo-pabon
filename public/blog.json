@@ -3,24 +3,24 @@
     "posts": [
       {
         "id": 1,
-        "title": "5 pasos para enfrentar el estrés en situaciones difíciles",
-        "description": "Estrategias prácticas para enfrentar el estrés en situaciones difíciles, incluyendo la identificación de las causas del estrés, la práctica de la meditación y la atención plena, y la importancia de establecer límites saludables. Además, se destaca la importancia de buscar apoyo y ayuda profesional cuando sea necesario.",
-        "date": "2023-02-27",
-        "image": "/img/posts/estres.jpg"
+        "title": "La comunicación",
+        "description": "La comunicación es una parte fundamental de las relaciones familiares. La comunicación efectiva puede ayudar a resolver conflictos, fomentar la comprensión y la empatía, y promover relaciones familiares saludables y duraderas. Si la comunicación en su familia es desafiante, no dude en buscar ayuda profesional.",
+        "date": "2023-03-30",
+        "image": "/img/posts/family-communication.jpg"
       },
       {
         "id": 2,
-        "title": "Importancia de la resiliencia en la vida cotidiana",
-        "description": "Cultivar la resiliencia en la vida cotidiana nos permite enfrentar mejor los retos y aprovechar las oportunidades para crecer y aprender.",
-        "date": "2023-02-28",
-        "image": "/img/posts/resiliencia.jpg"
+        "title": "Terapia de pareja",
+        "description": "La terapia de pareja es una forma de psicoterapia que se centra en la relación entre dos personas. La terapia de pareja puede ser útil para resolver conflictos y mejorar la comunicación en una relación, así como para ayudar a las parejas a manejar problemas emocionales y sexuales. En este blog se puede hablar sobre los principios y técnicas de la terapia de pareja, así como en la aplicación en la práctica clínica y los beneficios potenciales para las parejas que buscan mejorar su relación.",
+        "date": "2023-03-30",
+        "image": "/img/posts/couples-therapy.jpg"
       },
       {
         "id": 3,
-        "title": "Cómo identificar y manejar los trastornos de ansiedad",
-        "description": "<p>Este post aborda el tema de los trastornos de ansiedad, ofreciendo información detallada sobre los diferentes tipos de trastornos, sus síntomas y cómo se pueden manejar. También se proporcionan consejos prácticos para ayudar a las personas a reconocer y tratar la ansiedad de manera efectiva.</p>",
-        "date": "2023-03-02",
-        "image": "/img/posts/ansiedad.jpg"
+        "title": "La terapia cognitivo-conductual",
+        "description": "La terapia cognitivo-conductual (TCC) es una forma de psicoterapia que se centra en la identificación y modificación de patrones de pensamiento y comportamiento que contribuyen a problemas psicológicos. La TCC es una terapia eficaz para el tratamiento de la ansiedad, y en este blog se puede profundizar en los principios y técnicas de la TCC para el tratamiento de la ansiedad, así como en su aplicación en la práctica clínica.",
+        "date": "2023-03-30",
+        "image": "/img/posts/anxiety.jpg"
       }
     ]
   }
