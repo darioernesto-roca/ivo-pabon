@@ -11,5 +11,5 @@ exports.index = function(req, res) {
   const posts = JSON.parse(rawdata).postsData.posts;
 
   // Renderizar la plantilla EJS con el objeto de contexto que incluye las publicaciones
-  res.render('blog', { title: 'Blog | Ivo Pabón | Consultorio psicológico', posts: posts, req });
+  res.render('blog', { title: 'Blog', posts: posts, req });
 };

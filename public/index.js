@@ -60,13 +60,13 @@ nextBtn.addEventListener('click', showNextTestimonio);
 
 showTestimonio(currentIndexTestimony);
 
-
+// Programming the cover slider
 
     // Obtenemos los elementos del slider
-    const slider = document.querySelector('.main-slider__slide');
-    const items = document.querySelectorAll('.main-slider__item-slide');
-    const images = document.querySelectorAll('.main-slider__item-slide img');
-    const paginationItems = document.querySelectorAll('.main-slider__pagination-item');
+    const slider = document.querySelector('.main__slider__container');
+    const items = document.querySelectorAll('.main__slider__slide');
+    const images = document.querySelectorAll('.main__slider__slide img');
+    const paginationItems = document.querySelectorAll('.main__slider__pagination-item');
   
     // Configuramos el ancho del slider y de los elementos
     const itemWidth = items[0].offsetWidth;

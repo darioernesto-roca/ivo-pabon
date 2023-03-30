@@ -1,0 +1,65 @@
+/* Style for footer */
+.main-footer {
+    background-color: #1e2e3c;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 0 auto;
+    gap: 1em;
+    color: #fff;
+  }
+  
+  .main-footer__logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .main-footer__logo-container__image {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .main-footer__icon {
+    width: 30px;
+  }
+  
+  .widget-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .widget-container a {
+    margin-right: 10px;
+    font-size: 1.5em;
+  }
+  
+  .main-footer .main-footer__logo-container,
+  .main-footer .footer-phone,
+  .main-footer .legal {
+    max-width: 500px;
+  }
+  
+  .footer__link,
+  .footer__link:visited {
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  .footer-phone:before {
+      content: "";
+      display: inline-block;
+      color: #40a1be;
+      width: 20px;
+      height: 20px;
+      align-self: center;
+      background-size: cover;
+      background-image: url(/img/phone.svg);
+    }

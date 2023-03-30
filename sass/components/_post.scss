@@ -1,0 +1,17 @@
+/* Styles for post */
+.post__cover-container {
+    background-color: #1e2e3c;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+    width: auto;
+    margin: 0 auto;
+    padding: 2em;
+    min-width: 225px;
+  }
+  
+  .post__author,
+  .post__date {
+    margin: 2em 0;
+    font-weight: 700;
+  }

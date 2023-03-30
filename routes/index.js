@@ -13,7 +13,7 @@ router.use('/', homeRoutes);
 router.use('/blog', blogRoutes);
 router.use('/posts', postRoutes);
 router.use('/servicios', serviceRoutes);
-router.use('/nosotros', usRoutes);
+router.use('/sobre-mi', usRoutes);
 router.use('/contacto', contactRoutes);
 
 module.exports = router;

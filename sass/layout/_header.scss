@@ -1,0 +1,30 @@
+/* Styles for top-header */
+.top__header {
+    display: none;
+    background-color: #c5f6fd;
+  }
+  
+  /* Style for the header */
+  .header {
+    height: 80px;
+    min-height: 80px;
+    background-color: hsl(0, 0%, 98%);
+  }
+  
+  .main-header {
+    overflow: visible;
+    background-color: hsl(0, 0%, 98%);
+    padding: 20px 5px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    gap: 20px;
+    min-width: 225px;
+    max-height: 150px;
+    position: relative;
+  }
+
+  .main-header__logo-container {
+    max-width: 350px;
+  }

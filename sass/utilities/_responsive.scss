@@ -1,0 +1,271 @@
+/* Media queries */
+
+@media (min-width:386px) {
+  .main__slider {
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 425px) {
+  .main__section .form {
+    padding: 2em;
+  }
+  .form {
+    padding: 3em 2em;
+  }
+
+
+
+  }
+
+@media (max-width: 480px) {
+  .card {
+    flex-basis: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+
+  /* Header 768px */
+  .header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .main-header {
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    justify-content: flex-end;
+  }
+
+  .column-distribution {
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: hsl(0, 0%, 98%);
+  }
+
+  .column-distribution .header-link {
+    width: 150px;
+    text-align: center;
+  }
+
+  .main-header__nav-container {
+    width: 70%;
+    max-width: 700px;
+    transform: none;
+    transition: none;
+    max-height: 100%;
+    opacity: 100%;
+  }
+
+  .hamburger-container {
+    display: none;
+  }
+
+  .main-header__logo-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+  }
+
+  .main-header__logo-container__image {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .top__header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #40a1be;
+    font-size: 0.9em;
+    padding: 0.8em;
+  }
+
+  .top__header__phone,
+  .top__header__email {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    gap: 5px;
+  }
+
+  .top__header__phone:before,
+  .top__header__email:before {
+    content: "";
+    display: inline-block;
+    color: #40a1be;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+    background-size: cover;
+  }
+
+  .top__header__phone:before {
+    background-image: url(/img/phone.svg);
+  }
+
+  .top__header__email:before {
+    background-image: url(/img/email.svg);
+  }
+
+  .top__header__link {
+    color: #40a1be;
+  }
+
+  .top__header__link:hover {
+    color: hsl(194, 50%, 25%);
+    font-weight: 600;
+  }
+
+  .top__header__link:visited {
+    color: #40a1be;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .main-header__btn-container__btn-reserve {
+    display: block;
+  }
+
+   /* Sections 768px */
+  .section-profile,
+  .experiences__container,
+  .experiences__list,
+  .services,
+  .values,
+  .testimonials {
+    margin: 3em auto;
+    padding: 0 2em;
+  }
+
+  /* Main 768px */
+  .page__container {
+    max-width: 70%;
+  }
+  
+  .main,
+  .post__cover-container,
+  .services__sections-container {
+    background-position: center -100px;
+  }
+
+  /* Cards 768px */
+  .card {
+    flex-basis: calc(50% - 20px);
+  }
+
+  /* Pages 768px */
+.us {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.us__image-container {
+  order: 1;
+}
+
+
+ /* Slider 768px*/
+ .main__slider__slide img {
+  width: 80%;
+  height: 100%;
+  max-width: 80%;
+}
+
+}
+
+
+@media (min-width: 1024px) {
+
+
+/* Cover 1024px */
+.cover__container {
+  flex-direction: row;
+  overflow: hidden;
+  gap: 7em;
+  padding-right: 3em;
+}
+
+.cover__text {
+  width: 50%;
+  margin-left: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border-radius: 33% 67% 35% 65% / 75% 30% 70% 25%;
+  box-shadow: 1px 1px 30px 1px hsla(0, 0%, 0%, 0.055);
+}
+
+.page__cover-text {
+  width: 70%;
+}
+
+/*Slider 768px  */
+.main__slider {
+  padding: 0;
+  width: 50%;
+  left: 0;
+  transform: none;
+}
+
+.main__slider__image-slide[id="1"]:checked ~ .main__slider__container {
+  transform: translate3d(50px, 0, 0);
+}
+
+.main__slider__pagination {
+  bottom: 20%;
+}
+
+
+
+
+
+  /* .main-footer .main-footer__logo-container,
+  .main-footer .footer-phone,
+  .main-footer .legal {
+    max-width: 500px;
+  } */
+
+  .main,
+  .post__cover-container,
+  .services__sections-container {
+    background-position: center -200px;
+  }
+
+  .form {
+    padding: 10em 2em;
+  }
+
+  .main-footer {
+    flex-direction: row;
+    gap: 1.2em;
+  }
+
+  .footer-phone {
+    width: 300px;
+  }
+}
+
+
+@media (min-width: 1440px) {
+  .main,
+  .post__cover-container,
+  .services__sections-container {
+    background-position: center -300px;
+  }
+
+  .main__slider__pagination {
+    justify-content: flex-start;
+    padding-left: 7em;
+  }
+}

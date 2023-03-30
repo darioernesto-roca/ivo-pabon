@@ -1,0 +1,23 @@
+/* Style for cards */
+.cards {
+    background-color: #ffffff;
+    padding: 3em 2em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+  }
+  
+  .main__section.cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .card {
+    flex: 1;
+    margin: 10px;
+    box-sizing: border-box;
+  }
+  
+  .card img {
+    width: 100%;
+  }

@@ -1,0 +1,20 @@
+.main {
+    margin: 0 auto;
+    max-width: 1440px;
+  }
+
+  .main__image--profile {
+    width: 100%;
+    display: block;
+    border-radius: 6px;
+    max-width: 500px;
+    margin: 1em auto;
+  }
+
+  /* Main pages */
+  .page__container {
+    width: auto;
+    margin: 7em auto;
+    padding: 0 2em;
+    min-width: 225px;
+  }

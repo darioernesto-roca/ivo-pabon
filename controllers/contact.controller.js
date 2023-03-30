@@ -8,7 +8,7 @@ const { validationResult } = require("express-validator");
 exports.get = (req, res) => {
   const errors = req.query.errors;
   res.render('contact', {
-    title: "Ivo Pabón | Terapia psicológica",
+    title: "Contacto",
     errors,
     success_msg: req.query.success,
   });
@@ -32,7 +32,7 @@ exports.sendEmail = async (req, res) => {
     // Verify if there are errors in validation
     if (!errors.isEmpty()) {
       return res.render("contact", {
-        title: "Ivo Pabón | Terapia psicológica",
+        title: "Contacto",
         errors: errors.mapped(),
       })
     }
@@ -59,7 +59,7 @@ exports.sendEmail = async (req, res) => {
 
     console.log("Mensaje enviado: %s", info.messageId);
     res.render("contact", {
-      title: "Ivo Pabón | Terapia psicológica",
+      title: "Contacto",
       errors: errors,
       success_msg: "*Su mensaje ha sido enviado, nos pondremos en contacto con usted para confirmar su cita",
     });

@@ -3,6 +3,6 @@
 exports.index = function (req, res) {
   console.log("Entró al controlador de blog.services");
   res.render("services", {
-    title: "Ivo Pabón | Terapia psicológica",
+    title: "Servicios",
   });
 };

@@ -1,0 +1,35 @@
+/* Style for the testimonial slider */
+
+
+.testimonials .slider {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 5em auto;
+  }
+  
+  .slider__item-img {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .slider__item {
+    opacity: 100;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .arrow {
+    width: 50px;
+  }
+  
+  .slider-hidden {
+    display: none;
+  }
+  
+  .slider-active {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }

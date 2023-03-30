@@ -1,0 +1,20 @@
+/* Us styles */
+.us {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    margin: 0 auto;
+    max-width: 70%;
+  }
+  
+  .us-image {
+    width: 100%;
+    background-color: #ffffff;
+    max-width: 500px;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  
+  .us__image-container {
+    margin: 1em auto;
+  }

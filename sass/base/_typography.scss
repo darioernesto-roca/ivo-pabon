@@ -1,0 +1,62 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&family=Roboto&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,400;1,700&display=swap");
+
+/* Style for text */
+.page-title {
+  margin: 1em auto;
+  text-align: center;
+  font-size: 3.5em;
+  font-weight: 700;
+  line-height: 0.9em;
+  color: #30296c;
+  }
+  
+  .main__main-title,
+  .main__main-subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #f5f5f5;
+    text-transform: uppercase;
+  }
+
+  /* Styles for headings and text */
+.cover__text {
+  text-align: center;
+  color: #30296c;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section__title {
+  color: #40a1be;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.strong-paragraph {
+  font-size: 30px;
+  color: #30296c;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.regular-paragraph {
+  font-size: 1em;
+  font-weight: 400;
+  color: #696687;
+}
+
+.paragraph {
+  color: #696687;
+}
+
+.service-title {
+  font-size: 30px;
+  color: #30296c;
+  font-weight: 700;
+}

@@ -1,0 +1,85 @@
+/* Services */
+.services__cards__container {
+  margin: 5em 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.cards {
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.services__card--1 {
+  background-color: #f8f8f8;
+}
+
+.services__card--2 {
+  background-color: #fafafa;
+}
+
+.services__card--3 {
+  background-color: #f8f8f8;
+}
+
+.services__card--4 {
+  background-color: #fafafa;
+}
+
+.services__card--5 {
+  background-color: #f8f8f8;
+}
+
+.services__card--6 {
+  background-color: #fafafa;
+}
+
+.services__card--1 img,
+.services__card--2 img,
+.services__card--3 img,
+.services__card--4 img,
+.services__card--5 img,
+.services__card--6 img {
+  border-radius: 20px;
+  object-fit: contain;
+  width: 100%;
+  height: 200px;
+}
+
+.services_link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  padding: 20px;
+  height: 100%;
+}
+
+.services_link:hover h3 {
+  color: #5a5a5a;
+}
+
+.services_link:hover p {
+  color: #5a5a5a;
+}
+
+@media screen and (min-width: 768px) {
+
+  
+  .cards {
+    margin-right: 30px;
+  }
+  
+  .cards:last-child {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cards {
+    margin-right: 0;
+  }
+}

@@ -1,0 +1,109 @@
+/* Style for sections */
+.section-profile,
+.services {
+  margin: 3em 1em;
+}
+
+.main .section {
+  width: auto;
+  margin: 7em auto;
+  padding: 0 2em;
+  min-width: 225px;
+}
+
+.main__section__title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 100;
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.main__section__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  margin-bottom: 1em;
+}
+
+.exp {
+  background-color: #f5f5f5;
+  padding: 3em 2em;
+}
+
+.values {
+  background-color: #ffffff;
+  padding: 3em 2em;
+}
+
+.benefits {
+  background-color: #f5f5f5;
+  padding: 3em 2em;
+}
+
+.testimonials {
+  background-color: #ffffff;
+  padding: 3em 2em;
+}
+
+.section-profile,
+.experiences__container,
+.experiences__list,
+.services,
+.values,
+.testimonials {
+  max-width: 50em;
+  margin: 1em 20px;
+}
+
+/* Styles for section Experiences */
+.experiences__container {
+  max-width: 90%;
+  margin: 2em auto;
+}
+
+.experiences__item {
+  color: #30296c;
+  list-style-image: url("/img/check-circle15x15.png");
+  font-weight: 700;
+  line-height: 2em;
+}
+
+/* Styles for section services */
+.service {
+  display: flex;
+  flex-direction: column;
+  border-top: solid #30296c00 2px;
+  border-bottom: solid #30296c00 2px;
+  transition: all ease 0.5s;
+  margin: 1em auto;
+}
+
+.service:hover {
+  border-bottom: solid #30296c 2px;
+}
+
+.service__image-container {
+  width: 50%;
+  max-width: 50%;
+  margin: 1em auto;
+}
+
+.service__image1 {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.42);
+}
+
+.service__image2 {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 52% 48% 58% 42% / 62% 70% 30% 38%;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.42);
+}
+
+.service__image3 {
+  width: 100%;
+  max-width: 100%;
+  border-radius: 33% 67% 35% 65% / 75% 30% 70% 25%;
+  box-shadow: 2px 2px 8px 4px rgba(0, 0, 0, 0.42);
+}
