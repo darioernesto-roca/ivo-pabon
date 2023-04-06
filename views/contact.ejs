@@ -37,6 +37,7 @@
                 <label for="type">Servicios</label>
                 <select id="type" name="type" required>
                     <option value="" disabled selected>Selecciona uno</option>
+                    <option value="terapia-individual">Terapia individual</option>
                     <option value="terapia-de-pareja">Terapia de pareja</option>
                     <option value="terapia-familiar">Terapia familiar</option>
                     <option value="terapia-de-grupo">Terapia de grupo</option>
@@ -56,8 +57,19 @@
                 </label>
             </div>
             <div class="button-container">
-                <button class="send-button">Enviar</button>
+                <input type="submit" value="Enviar" class="send-button">
             </div>
+            <% if (typeof success_msg !== 'undefined' && success_msg) { %>
+              <div class="success-msg">
+                <p>
+                  <%= success_msg %>
+                </p>
+              </div>
+              <% } else { %>
+                <div class="help">
+                  <p>Haga click en el botón para enviar el formulario</p>
+                </div>
+                <% } %>
         </form>
 
 </section>

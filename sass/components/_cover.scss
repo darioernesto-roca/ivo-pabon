@@ -1,0 +1,23 @@
+.cover__container {
+  background-image: url(/img/slider-bg.jpg);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 80vh;
+  padding: 3em 0;
+}
+
+.cover__image__container {
+  width: 50%;
+  max-width: 50%;
+  display: none;
+}
+
+.cover__image {
+    width: 80%;
+    min-width: 524.8px;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow: 4px 4px 8px 1px rgba(0, 0, 0, 0.42);
+
+  }

@@ -4,8 +4,9 @@
   "description": "",
   "main": "main.js",
   "scripts": {
+    "dev:css": "sass sass/main.scss public/css/mainSass.css -w",
     "start": "node src/app.js",
-    "dev": "nodemon src/app.js",
+    "dev": "concurrently \"npm run dev:css\" \"nodemon src/app.js\"",
     "build": "npm install",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +25,7 @@
     "vite": "^4.2.1"
   },
   "devDependencies": {
+    "concurrently": "^8.0.1",
     "dotenv": "^16.0.3"
   }
 }

@@ -26,6 +26,7 @@ const transporter = nodemailer.createTransport(mg(auth));
 
 exports.sendEmail = async (req, res) => {
   try {
+    console.log('Vengo de sendEmail');
     // Get validation errors
     const errors = validationResult(req);
 
@@ -38,7 +39,7 @@ exports.sendEmail = async (req, res) => {
     }
 
     // If there's no errors continue with the process
-    const { name, phone, servicio, email, message } = req.body;
+    const { name, phone, service, email, message } = req.body;
 
     // Sets data for emails
     const mailOptions = {
@@ -49,7 +50,7 @@ exports.sendEmail = async (req, res) => {
           <p>Nombre: ${name}</p>
           <p>Teléfono: ${phone}</p>
           <p>Correo electrónico: ${email}</p>
-          <p>Servicio requerido: ${servicio}</p>
+          <p>Servicio requerido: ${service}</p>
           <p>Mensaje: ${message}</p>
         `,
     };
