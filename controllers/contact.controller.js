@@ -26,12 +26,13 @@ const transporter = nodemailer.createTransport(mg(auth));
 
 exports.sendEmail = async (req, res) => {
   try {
-    console.log('Vengo de sendEmail');
+    
     // Get validation errors
     const errors = validationResult(req);
 
     // Verify if there are errors in validation
     if (!errors.isEmpty()) {
+      console.log(errors);
       return res.render("contact", {
         title: "Contacto",
         errors: errors.mapped(),
@@ -43,9 +44,9 @@ exports.sendEmail = async (req, res) => {
 
     // Sets data for emails
     const mailOptions = {
-      from: "Nombre <informacion@labanalisis.com>",
+      from: "ivopabon2@hotmail.com",
       to: "darioernesto.roca@gmail.com",
-      subject: "Mensaje de Consultorio psicológico",
+      subject: "Mensaje de Consultorio Web Ivo Pabón | Psicoterapia",
       html: `
           <p>Nombre: ${name}</p>
           <p>Teléfono: ${phone}</p>
@@ -54,6 +55,7 @@ exports.sendEmail = async (req, res) => {
           <p>Mensaje: ${message}</p>
         `,
     };
+
 
     // Sends the email
     const info = await transporter.sendMail(mailOptions);
@@ -66,6 +68,6 @@ exports.sendEmail = async (req, res) => {
     });
   } catch (error) {
     console.log(error);
-    res.render("contact", { error_msg: "Error al enviar el mensaje" });
+    res.render("contact", { error_msg: "Error al enviar el mensaje", title: "Contacto"});
   }
 };

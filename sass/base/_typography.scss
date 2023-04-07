@@ -61,3 +61,15 @@
   color: #30296c;
   font-weight: 700;
 }
+
+.success-msg, .success-link {
+  text-align: center;
+  font-size: 1em;
+  font-weight: 400;
+  color: #3997b4;
+}
+
+.success-link a {
+  color: #f23465;
+  cursor: pointer;
+}

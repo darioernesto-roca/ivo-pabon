@@ -13,7 +13,7 @@ router.post(
     check("phone", "El teléfono es requerido").notEmpty(),
     check("email", "El correo electrónico es requerido").notEmpty(),
     check("email", "El correo electrónico no es válido").isEmail(),
-    check("servicio", "Por favor escoge un servicio").notEmpty(),
+    check("service", "Por favor escoge un servicio").notEmpty(),
     check("message", "El mensaje es requerido").notEmpty(),
   ],
   contactController.sendEmail
