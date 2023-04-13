@@ -1299,6 +1299,10 @@ a {
   align-items: center;
 }
 
+.arrow:hover {
+  cursor: pointer;
+}
+
 /* WhatsApp icon */
 .float {
   position: fixed;
