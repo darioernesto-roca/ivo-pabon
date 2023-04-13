@@ -1,3 +1,13 @@
 a {
   text-decoration: none;
 }
+
+.link__terms {
+  cursor: pointer;
+  font-weight: 700;
+  color: #333;
+}
+
+.link__terms:visited {
+  color: #333;
+}

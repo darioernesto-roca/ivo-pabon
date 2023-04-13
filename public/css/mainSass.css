@@ -380,6 +380,11 @@ template {
   cursor: pointer;
 }
 
+.term-item-title {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
@@ -1178,6 +1183,16 @@ form {
 
 a {
   text-decoration: none;
+}
+
+.link__terms {
+  cursor: pointer;
+  font-weight: 700;
+  color: #333;
+}
+
+.link__terms:visited {
+  color: #333;
 }
 
 /* Style for the logo */
